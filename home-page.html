@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-Wikipédia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <header>
+        <button class="menubtt" aria-label="Abrir menu">&#9776;</button>
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Ínicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#mais">Mais...</a></li>
+            </ul>
+        </nav>
+
+        <picture id="inicio" class="logotipo">
+            <img  src="assets/images/wikipedia-logo.png" width="150" alt="logotipo da wikipedia"/>
+            <h1 hidden>Re-Wikipédia a enciclopédia livre</h1>
+        </picture>
+
+        <form>
+            <div class="search">
+                <label for="search" class="visually-hidden">Pesquisar na Re-Wikipédia</label>
+                <input class="search-bar" type="search" id="search" placeholder="Pesquisar na Re-Wikipédia" name="search" autocomplete="off">
+                <button class="search-btn" type="submit">Pesquisar</button>
+            </div>
+        </form>
+
+        <nav class="important-links">
+            <ul>
+                <li><a href="#">Donativos</a></li>
+                <li><a href="#">Criar uma Conta</a></li>
+                <li><a href="#">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="bar"></div>
+
+    <main>
+        <div class="submenu">
+            <nav class="submenu-left">
+                <ul>
+                    <li><a href="#" class="selected">Página Principal</a></li>
+                    <li><a href="#">Discussão</a></li>
+                </ul>
+            </nav>
+            <nav class="submenu-right">
+                <ul>
+                    <li><a href="#" class="selected">Ler</a></li>
+                    <li><a href="#">Ver fonte</a></li>
+                    <li><a href="#">Ver histórico</a></li>
+                    <li><a href="#" class="tools-submenu">Ferramentas</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="bar-submenu"></div>
+
+        <div class="sub-header">
+            <div class="sub-header-left">
+                <h2>Boas-vindas À Re-Wikipédia,</h2>
+                <p>a enciclopédia livre que todos podem editar.</p>
+            </div>
+
+            <div class="sub-header-right">
+                <p><strong>12</strong> artigos em português</p>
+                <p><strong>1</strong> editor(es) ativo(s)</p>
+                <nav class="nav-links-r">
+                    <ul>
+                        <li><a href="#">Ajuda</a></li>
+                        <li><a href="#">Índice</a></li>
+                        <li><a href="#">Perguntas</a></li>
+                        <li><a href="#">Políticas</a></li>
+                        <li><a href="#">Portais</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="bar-content"></div>
+
+        <div class="menu-category">
+            <table>
+                <tbody>
+                    <tr>
+                        <th style="border-left: 5px solid black; background-color: rgb(219, 219, 219); border-radius: 5px; border-top-left-radius: 1px; border-bottom-left-radius: 1px; display: none;" aria-hidden="true" title="tabela com os temas">Categorias:</th>
+                        <td style="border-left: 5px solid brown; background-color: rgb(219, 205, 205); border-radius: 5px; border-top-left-radius: 1px; border-bottom-left-radius: 1px;"><a href="#">Arte</a></td>
+                        <td style="border-left: 5px solid red; background-color: rgb(255, 215, 215); border-radius: 5px; border-top-left-radius: 1px; border-bottom-left-radius: 1px;"><a href="#">Biografias</a></td>
+                        <td style="border-left: 5px solid orange; background-color: rgb(255, 229, 180); border-radius: 5px; border-top-left-radius: 1px; border-bottom-left-radius: 1px;"><a href="#">Ciências</a></td>
+                        <td style="border-left: 5px solid yellow; background-color: rgb(243, 243, 189); border-radius: 5px; border-top-left-radius: 1px; border-bottom-left-radius: 1px;"><a href="#">Filosofia</a></td>
+                        <td style="border-left: 5px solid yellowgreen; background-color: rgb(224, 249, 174); border-radius: 5px; border-top-left-radius: 1px; border-bottom-left-radius: 1px;"><a href="#">Geografia</a></td>
+                        <td style="border-left: 5px solid green; background-color: rgb(200, 255, 200); border-radius: 5px; border-top-left-radius: 1px; border-bottom-left-radius: 1px;"><a href="#">História</a></td>
+                        <td style="border-left: 5px solid rgb(0, 169, 169); background-color: rgb(180, 248, 254); border-radius: 5px; border-top-left-radius: 1px; border-bottom-left-radius: 1px;"><a href="#">Matemática</a></td>
+                        <td style="border-left: 5px solid blue; background-color: rgb(221, 221, 255); border-radius: 5px; border-top-left-radius: 1px; border-bottom-left-radius: 1px;"><a href="#">Sociedade</a></td>
+                        <td style="border-left: 5px solid palevioletred; background-color: rgb(248, 222, 231); border-radius: 5px; border-top-left-radius: 1px; border-bottom-left-radius: 1px;"><a href="#">Tecnologia</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="bar-content"></div>
+
+        <div class="cont-homepage">
+            <div class="content-left">
+                <h2 id="sobre">ARTIGO EM DESTAQUE</h2>
+                <picture class="img-artigo">
+                    <img src="assets/images/series-the_chosen.jpg" alt="imagem da serie the chosen" width="190" height="70">
+                    <figcaption><em>Imagem, The Chosen</em></figcaption>
+                </picture>
+                <p><a href="series/the-chosen.html">The Chosen</a> é uma série de televisão cristã americana de drama histórico baseada na vida de Jesus. Foi criada, dirigida e co-escrita por Dallas Jenkins. É a primeira série com múltiplas temporadas sobre a vida de Jesus. Ambientada principalmente na Judeia e na Galileia no século I, a série centra-se em Jesus pela perscpectiva das diferentes pessoas que o conheceram, seguiram ou interagiram de alguma forma com ele. A série é estrelada por Jonathan Roumie como Jesus, ao lado de Shahar Isaac, Elizabeth Tabish, Paras Patel, Noah James e George H. Xanthis.</p>
+                <p>Depois que Jenkins observou que nunca houve um retrato de Jesus baseado em episódios com várias temporadas que pudesse ser "maratonada" como programas em mídias de streaming como o Netflix, ele decidiu criar a série em parceria com a Angel Studios, anteriormente VidAngel. Com a intenção de diferir das representações anteriores de Jesus, ele elaborou uma história que se concentrava mais nas pessoas que encontraram Jesus e o viram através de seus olhos. Ele afirmou em entrevistas que procurou apresentar Jesus de uma forma que fosse mais "pessoal, íntima, [e] imediata".</p>
+                <p>Os produtores da série usaram principalmente o financiamento coletivo na plataforma Angel Studios para financiar a produção, e continua a ser a série de televisão ou projeto de filme com financiamento coletivo de maior sucesso da história. A receita adicional vem do licenciamento para outras plataformas de streaming e redes de televisão, como Prime, Peacock, Netflix e SBT (no Brasil). As vendas de mercadorias e vídeos proporcionam fontes adicionais de receita, assim como as estreias limitadas nos cinemas. O programa foi adaptado para uma série de romances do pai de Jenkins, o autor Jerry B. Jenkins, uma série de romance gráfico da Corvus Comics e materiais de estudo bíblico publicados por David C. Cook.</p>
+                <p class="more">Mais...</p>
+            </div>
+
+            <div class="content-right">
+                <h2>EVENTOS ATUAIS</h2>
+                <nav>
+                    <picture class="img-artigo">
+                        <img src="assets/images/homepage-aerial_microsoft_west_campus_august_2009.jpg" alt="Imagem aerea da empresa Microsoft" width="200" height="100">
+                        <figcaption><em>Imagem aerea da empresa Microsoft</em></figcaption>
+                    </picture>
+                    <ul style="list-style-type: disc;">
+                        <li>Mensageiro instantâneo Skype é oficialmente descontinuado pela Microsoft.</li>
+                        <li>Conclave da Igreja Católica elege cardeal Robert Francis Prevost como Papa Leão XIV, o primeiro nascido na América do Norte.</li>
+                        <li>Índia e Paquistão trocam ataques militares após atentado terrorista no território indiano de Jamu e Caxemira em abril.</li>
+                        <li>Ex-presidente do Uruguai Pepe Mujica morre aos 89 anos.</li>
+                        <li>Partido Liberal do Canadá, liderado pelo primeiro-ministro Mark Carney, vence as eleições legislativas no Canadá.</li>
+                        <li>Apagão de grandes proporções afeta Portugal, Espanha, Andorra e sudoeste da França, causando pelo menos oito mortes.</li>
+                        <li>Ataque com veículo a festival em Vancouver, Canadá deixa 11 mortos e mais de 20 feridos.</li>
+                        <li>Ex-presidente do Brasil Fernando Collor de Mello é preso para o cumprimento imediato de sua pena por corrupção e lavagem de dinheiro.</li>
+                        <li>Militantes atacam um grupo de turistas na Caxemira, região administrada pela Índia, matando 28 pessoas.</li>
+                        <li>Papa Francisco, primeiro papa jesuíta e nascido no continente americano, morre aos 88 anos.</li>
+                        <li>Hugo Calderano vence a Copa do Mundo de Tênis de Mesa de 2025, em Macau, e se torna o primeiro campeão não europeu ou asiático.</li>
+                        <li class="prev-articles"><strong>Artigos postados anteriormente:</strong><a href="movies/iron-man.html"> Homem de Ferro</a>,<a href="movies/jumanji.html"> Jumanji</a>,<a href="movies/captain_america_the_first_avenger.html"> Capitão América: O Primeiro Vingador</a>,<a href="series/game-of-thrones.html"> Game of Thrones</a>...</li>
+                        <p class="more" id="mais">Mais...</p>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="rodape">
+            <p>Esta página foi editada pela última vez às 19h07min de 24/04/2025.</p>
+            <p>Este texto é disponibilizado nos termos da licença de <span class="destaque">Atribuição Inc. Creative Commons;</span> pode estar sujeito a condições adicionais. Para mais detalhes, consulte as <span class="destaque">condições de utilização.</span></p>
+            <ul>
+                <li><a href="#">Política de privacidade e Termos</a></li>
+                <li><a href="#">Sobre a Re-Wikipedia</a></li>
+                <li><a href="#">Avisos gerais</a></li>
+                <li><a href="#">Estatísticas</a></li>
+                <li><a href="#">Declaração sobre cookies</a></li>
+            </ul>
+        </div>
+        <div class="img-rodape">
+            <figure class="rfigure">
+                <img src="../assets/images/footer-wikimedia-button.svg" alt="imagem sobre a wikimedia no rodapé">
+            </figure>
+            <figure class="rfigure">
+                <img src="../assets/images/footer-poweredby_mediawiki.svg" alt="imagem sobre a poweredby_mediawiki no rodapé">
+            </figure>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js" defer></script>
+</body>
+</html>
