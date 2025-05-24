@@ -1,0 +1,3 @@
+Project Challenge proposed by Diogo Mainardes - Dio.me... In this project, Wikipedia was recreated in a simple layout, but semantically corrected in some points and with ACCESSIBILITY;
+In the project, the instructor requested the use of HTML+CSS, but I added a little bit of JS with very minimal use...
+(this is because the course is only about HTML, CSS and JS, it is for the student to play around a little so that he can start learning ;)
